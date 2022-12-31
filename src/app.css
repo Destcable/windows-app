@@ -1,6 +1,5 @@
-* { 
+body { 
+    background-image: url('./pages/authorization/img/bg_1.png');
     margin: 0px;
     padding: 0px;
-    width: 100%;
-    height: 100%;
 }
