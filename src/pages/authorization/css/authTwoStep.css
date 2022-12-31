@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+.authBlock {
+    margin-top: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.userNameAuth { 
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 64px;
+
+    color: #fff;
+}

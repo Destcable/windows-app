@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react';
-import LoginStartStep from './loginStart';
+import React, { useRef, useState } from 'react';
+import LoginStartStep from './pages/authorization/loginStart';
 import destroyElement from './helpers';
 import './app.css'
 import './pages/authorization/css/auth.css'

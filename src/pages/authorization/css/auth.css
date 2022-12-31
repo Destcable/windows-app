@@ -2,11 +2,11 @@
 
 .main-page { 
     display: flex;
-    margin-top: 450px;
     justify-content: center;
 }
 
 .enter-template { 
+    margin-top: 400px;
     width: 597px;
     height: 149.47px;
     
@@ -51,7 +51,3 @@
 
     color: #c5c5c5;
 } 
-
-.main-page-hide { 
-    visibility: hidden;
-}
