@@ -43,8 +43,15 @@
 }
 
 .userFieldAuth-description { 
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
     font-weight: 500;
     font-size: 14px;
 
     color: #c5c5c5;
 } 
+
+.main-page-hide { 
+    visibility: hidden;
+}
