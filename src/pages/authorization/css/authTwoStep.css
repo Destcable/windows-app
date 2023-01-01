@@ -15,3 +15,26 @@
 
     color: #fff;
 }
+
+.inpPassword { 
+    width: 472px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1.84534px solid rgba(188, 188, 188, 0.74);
+    box-shadow: 0px 7.23636px 35.2773px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(27.2187px);
+    border-radius: 92.2669px;
+    color: #F5F5F5;
+}
+
+.arrowRightButton { 
+    width: 64px;
+    height: 64px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border: 1.84534px solid rgba(188, 188, 188, 0.74);
+    box-shadow: 0px 7.23636px 35.2773px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(27.2187px);
+
+    border-radius: 92.2669px;
+}
