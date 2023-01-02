@@ -7,11 +7,12 @@ function LoginStartStep(elementScroll ) {
     disableBodyScroll(elementScroll)
     return( 
         <div className="authBlock">
-            <img src={userIconBig} /><br />
+            <img src={userIconBig} className='userIconBig'/>
             <p className='userNameAuth'>Artem Pavlov</p>
+            <div className='hidePassword'></div>
             <input className='inpPassword'></input>
-            <div className='arrowRightButton'>
-                <img src={arrowRightIcon} alt="arrowRightIcon" />
+            <div className='arrowRightButton' onClick={() => {alert('test')}}>
+                <img src={arrowRightIcon} alt="arrowRightIcon" className='arrowRightIcon' />
             </div>
         </div>
     )

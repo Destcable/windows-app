@@ -1,40 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 .authBlock {
-    margin-top: 200px;
     font-family: 'Poppins';
     font-style: normal;
 }
 
+.userIconBig {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 868px;
+    top: 310px;
+
+    border-radius: 613.68px;
+}
 .userNameAuth { 
-    display: block;
-    font-style: normal;
+    position: absolute;
+    left: 830px;
+    top: 470px;
+    
     font-weight: 600;
     font-size: 38px;
-    line-height: 64px;
+    
+    color: #FFFFFF;
+}
 
-    color: #fff;
+.hidePassword { 
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 640px;
+    top: 600px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border: 1.84534px solid rgba(188, 188, 188, 0.74);
+    box-shadow: 0px 7.23636px 35.2773px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(27.2187px);
+    
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 92.2669px;
 }
 
 .inpPassword { 
+    position: absolute;
     width: 472px;
     height: 64px;
+    left: 724px;
+    top: 600px;
+    
     background: rgba(255, 255, 255, 0.2);
     border: 1.84534px solid rgba(188, 188, 188, 0.74);
     box-shadow: 0px 7.23636px 35.2773px rgba(0, 0, 0, 0.18);
     backdrop-filter: blur(27.2187px);
     border-radius: 92.2669px;
+    
     color: #F5F5F5;
 }
 
 .arrowRightButton { 
+    position: absolute;
     width: 64px;
     height: 64px;
-
+    left: 1216px;
+    top: 600px;
+    
     background: rgba(255, 255, 255, 0.2);
     border: 1.84534px solid rgba(188, 188, 188, 0.74);
     box-shadow: 0px 7.23636px 35.2773px rgba(0, 0, 0, 0.18);
     backdrop-filter: blur(27.2187px);
-
+    
     border-radius: 92.2669px;
+}
+
+.arrowRightIcon { 
+    margin-top: 19px;
+    margin-left: 19px;
 }
