@@ -8,12 +8,12 @@ import blockIcon from '../../helpers/icons/block.svg'
 
 function LoginMain( ) { 
   const template = useRef(null);
-  const elementScroll = document.querySelector('#auth-page')
-  const [visibleMain, setVisibleMain] = useState(false)
+  const elementScroll = document.querySelector('#auth-page');
+  const [visibleMain, setVisibleMain] = useState(false);
   const stepVisibleMain = (element) => { 
     destroyElement(element)
     setVisibleMain(true)
-  } 
+  };
   return( 
     <div id='auth-page'>
     { visibleMain == true 

@@ -1,0 +1,10 @@
+.taskbar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 900px;
+    height: 48px;
+    background: rgba(117, 117, 117, 0.2);
+    background-blend-mode: normal, color, luminosity;
+    backdrop-filter: blur(30px);
+}
