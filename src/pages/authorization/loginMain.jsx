@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
-import destroyElement from '../../helpers';
+import destroyElement from '../../helpers/helper';
 import LoginStartStep from './loginStart';
 import '../../app.css'
 import './css/auth.css'
-import userIcon from '../user/icon-user/one.png';
-import blockIcon from '../icons/block.svg'
+import userIcon from '../../helpers/user/icon-user/one.png';
+import blockIcon from '../../helpers/icons/block.svg'
 
 function LoginMain( ) { 
     const template = useRef(null);

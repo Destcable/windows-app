@@ -1,7 +1,7 @@
 import './css/authTwoStep.css';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import userIconBig from '../user/icon-user/one_BIG.png';
-import arrowRightIcon from '../icons/arrow_right.svg';
+import userIconBig from '../../helpers/user/icon-user/one_BIG.png';
+import arrowRightIcon from '../../helpers/icons/arrow_right.svg';
 
 function LoginStartStep(elementScroll ) {
     disableBodyScroll(elementScroll)
