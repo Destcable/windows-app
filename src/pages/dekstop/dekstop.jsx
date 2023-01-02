@@ -11,16 +11,26 @@ import store from './img/store.svg';
 
 function MainDekstop ( ) { 
     return(
+        <>
+        <div className='startMenu'>
+            <div className='top-startMenu'>
+
+            </div>
+            <div className='bottom-startMenu'>
+
+            </div>
+        </div>
         <div className="taskbar">
             <img src={window} className='taskIcon' />
             <img src={search} className='taskIcon' />
             <img src={tasker} className='taskIcon' />
             <img src={widget} className='taskIcon' />
-            <img src={teams}  className='taskIcon'  />
-            <img src={folder} className='taskIcon'  />
-            <img src={edge}   className='taskIcon'  />
-            <img src={store}  className='taskIcon'  />
+            <img src={teams}  className='taskIcon' />
+            <img src={folder} className='taskIcon' />
+            <img src={edge}   className='taskIcon' />
+            <img src={store}  className='taskIcon' />
         </div>
+        </>
     )
 }
 
