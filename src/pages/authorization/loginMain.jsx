@@ -6,7 +6,7 @@ import './css/auth.css'
 import userIcon from '../../helpers/user/icon-user/one.png';
 import blockIcon from '../../helpers/icons/block.svg'
 
-function LoginMain( ) { 
+function LoginMain( ) {
   const template = useRef(null);
   const elementScroll = document.querySelector('#auth-page');
   const [visibleMain, setVisibleMain] = useState(false);

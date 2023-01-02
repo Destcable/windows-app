@@ -8,3 +8,9 @@
     background-blend-mode: normal, color, luminosity;
     backdrop-filter: blur(30px);
 }
+
+.taskIcon {
+    width: 23px;
+    height: 23px;
+    margin-right: 23px;
+}
